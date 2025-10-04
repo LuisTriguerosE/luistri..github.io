@@ -1,0 +1,41 @@
+
+*{
+margin: 2;
+padding: 3;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(100deg, #4effff, #f9d4f9 );
+    color:rgb(255, 255, 255);
+    padding: 220px;
+    text-align: center;
+}
+
+.container{
+background: #00ccff;
+border: 2px solid #fffefe;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba (0,0,0,0.2) ;
+max-width: 700px;
+margin: auto;
+padding: 30px;
+animation: fadeIn 2s ease-in-out;
+}
+
+h2,h3 {
+color: #ffffff;
+margin-bottom: 40px;
+}
+
+input [type="text"] ,
+input [type="password"],
+input [type="number"] {
+width: 90%;
+padding: 20px;
+margin: 20px 0;
+border: 80px solid #138f98;
+border-radius: 8px;
+font-size: 16px;
+}
+
